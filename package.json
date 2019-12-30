@@ -1,0 +1,50 @@
+{
+  "name": "eslint-plugin-superstition",
+  "version": "0.1.0",
+  "description": "ESLint superstition rules",
+  "license": "MIT",
+  "repository": "gurov/eslint-plugin-superstition",
+  "author": {
+    "name": "Pavel Gurov",
+    "email": "lucius.gu@gmail.com",
+    "url": "github.com/gurov"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "xo && nyc ava",
+    "update-md": "inject-in-tag ./rule-description.js readme.md"
+  },
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "keywords": [
+    "eslint",
+    "plugin",
+    "eslint-plugin",
+    "eslintplugin",
+    "superstition"
+  ],
+  "dependencies": {
+    "create-eslint-index": "^1.0.0",
+    "eslint-ast-utils": "^1.0.0",
+    "req-all": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint-ava-rule-tester": "^0.1.1",
+    "inject-in-tag": "^1.1.1",
+    "nyc": "^6.4.4",
+    "pify": "^2.3.0",
+    "xo": "^0.15.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2
+  }
+}
