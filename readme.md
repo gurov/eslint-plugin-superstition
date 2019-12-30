@@ -1,7 +1,6 @@
 # eslint-plugin-superstition
 
-ESLint superstition rules
-
+ESLint superstition rules  (no using number 13 and etc.)
 
 ## Install
 

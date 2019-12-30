@@ -11,9 +11,14 @@ const ruleTester = avaRuleTester(test, {
   }
 });
 
-const error = {
+const errorNumber = {
   ruleId: 'no-number-13',
-  message: 'The use of number `13` is not allowed. Use a different number'
+  message: 'The use of the number `13` is a bad omen. Use a different number.'
+};
+
+const errorName = {
+  ruleId: 'no-number-13',
+  message: 'Name contains the number 13. It is a bad omen. Use a different name.'
 };
 
 ruleTester.run('no-number-13', rule, {
@@ -23,11 +28,15 @@ ruleTester.run('no-number-13', rule, {
   invalid: [
     {
       code: `const a = 13;`,
-      errors: [error]
+      errors: [errorNumber]
     },
     {
       code: `if (a === 13) {}`,
-      errors: [error]
+      errors: [errorNumber]
+    },
+    {
+      code: `const myVar13 = 5;`,
+      errors: [errorName]
     }
   ]
 });

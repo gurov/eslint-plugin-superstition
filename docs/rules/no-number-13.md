@@ -1,6 +1,6 @@
 # Forbid the use number `13`
 
-The use of number `13` is not allowed. This is an unlucky number. Use a different number.
+The use of the number `13` is a bad omen. Use a different amount.
 
 
 ### Fail
@@ -9,6 +9,12 @@ The use of number `13` is not allowed. This is an unlucky number. Use a differen
 const a = 13;
 
 ```
+
+```js
+const myVariable13 = (a) => a*2;
+
+```
+
 
 ### Pass
 
