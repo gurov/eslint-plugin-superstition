@@ -36,7 +36,7 @@ Configure it in `package.json`.
 ## Rules
 
 <!-- RULES:START -->
-- [no-number-13](docs/rules/no-number-13.md) - Forbid the use of number `13`.
+- [no-number-13](docs/rules/no-number-13.md) - Forbid the use of number `13`. It is a bad omen.
 
 <!-- RULES:END -->
 
