@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-superstition",
-  "version": "0.1.1",
-  "description": "ESLint superstition rules",
+  "version": "0.2.0",
+  "description": "ESLint superstition rules (forbid using numbers 13, 666 and etc.)",
   "license": "MIT",
   "repository": "gurov/eslint-plugin-superstition",
   "author": {

@@ -1,6 +1,6 @@
 # eslint-plugin-superstition
 
-ESLint superstition rules  (no using number 13 and etc.)
+ESLint superstition rules (forbid using numbers 13, 666 and etc.)
 
 ## Install
 
@@ -25,6 +25,9 @@ Configure it in `package.json`.
     ],
     "rules": {
       "superstition/no-number-13": "error",
+      "superstition/no-number-39": "error",
+      "superstition/no-number-4": "error",
+      "superstition/no-number-666": "error",
       "no-var": "error"
     }
   }
@@ -37,6 +40,9 @@ Configure it in `package.json`.
 
 <!-- RULES:START -->
 - [no-number-13](docs/rules/no-number-13.md) - Forbid the use of number `13`. It is a bad omen.
+- [no-number-39](docs/rules/no-number-39.md) - Forbid the use of number `39`. It is a bad omen.
+- [no-number-4](docs/rules/no-number-4.md) - Forbid the use of number `4`. It is a bad omen.
+- [no-number-666](docs/rules/no-number-666.md) - Forbid the use of number `666`. It is a bad omen.
 
 <!-- RULES:END -->
 
