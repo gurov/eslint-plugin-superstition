@@ -24,6 +24,7 @@ Configure it in `package.json`.
       "superstition"
     ],
     "rules": {
+      "superstition/must-have-8": "error",
       "superstition/no-number-13": "error",
       "superstition/no-number-39": "error",
       "superstition/no-number-4": "error",
@@ -39,6 +40,7 @@ Configure it in `package.json`.
 ## Rules
 
 <!-- RULES:START -->
+- [must-have-8](docs/rules/must-have-8.md) - Must have to use of the number `8`. It brings good luck.
 - [no-number-13](docs/rules/no-number-13.md) - Forbid the use of number `13`. It is a bad omen.
 - [no-number-39](docs/rules/no-number-39.md) - Forbid the use of number `39`. It is a bad omen.
 - [no-number-4](docs/rules/no-number-4.md) - Forbid the use of number `4`. It is a bad omen.
